@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Fonts from './helpers/fonts';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Fonts />
   </React.StrictMode>,
   document.getElementById('root')
 );
